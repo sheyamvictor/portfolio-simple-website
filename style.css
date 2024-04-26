@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+        font-family: "Young Serif", serif;
+
+      
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact{
+    background-color: rgb(93, 119, 119);
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__Name{
+    font-size: 50px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-two, .section-three, .section-four, .section-five{
+    margin-top: 20px;
+
+}
+.section-two__disc, .section-three__disc, .section-four__disc, .section-five__disc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five__tittle a{
+    color: skyblue;
+}
+.section-three__disc, .section-four__disc{
+    list-style: none;
+}
+.section-three{
+    background-color: #8562fd;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+border-radius: 10px;
+}
+.section-four{ 
+    background-color:#fe7517 ;
+    color: black;
+padding: 20px;
+height: 200px;
+display: inline-block;
+vertical-align: top;
+border-radius: 10px;
+}
+
+.contact-form{
+    margin: 20px;
+}
+.contact-form__input,.contact-form__text, .contact-form__textarea, .contact-form__submit, .contact-form__reset{
+    margin-top: 10px;
+}
+   .contact-form__input , .contact-form__text{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black;
+   } 
+   .contact-form__textarea {
+padding: 10px;
+border: none;
+border: solid black 1px;
+   }
+   .contact-form__submit, .contact-form__reset{
+    background-color: rgb(93, 119, 119);
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+
+   }
+
+   
